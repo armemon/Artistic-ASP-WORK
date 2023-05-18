@@ -1,0 +1,127 @@
+body{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.navbar {
+    padding: 10px 10px;
+    background-color: darkblue !important;
+    height: 100px;
+    align-items: center;
+}
+.heading1{
+  color: white !important;
+  font-size:30px;
+  text-decoration: none !important;
+}
+.navbar-brand{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.container1{
+    text-align: center;
+    /* background-color: rgb(233, 173, 20); */
+
+}
+    .container1 > h3 {
+        background-color: #87cefa6a;
+        margin: 0px;
+        align-self: center;
+        padding: 20px;
+    }
+    .container1 > img {
+        height:40px;
+    }
+    .piecontainer {
+        display: inline-block;
+        position: relative;
+        height: 300px !important;
+    }
+
+.relative {
+    position: absolute;
+    left:50%;
+    top:58%;
+    transform: translate(-50%, -50%);
+  }
+  .relative > p{
+    line-height: 0%;
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+  }
+
+
+
+
+
+.item3 {
+    margin-top: 20px;
+}
+    .item3 > div {
+        margin-bottom:30px;
+        width: 200px;
+        text-align: left;
+        font-weight: bolder;
+        font-size:large;
+        justify-content: center;
+    }
+        .item3 > div > table {
+            width: 100%;
+            margin: 0;
+            color: rgb(121, 121, 121);
+        }
+
+.container2{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.line{
+  border-top:#0028bb solid;
+  margin: 20px 0;
+}
+.gap{
+    margin-top: 10px;
+}
+
+item2{
+    font-size: larger;
+
+}
+
+.MW{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.small{
+    font-size:large;
+}
+
+.inline > table{
+    display: inline !important;
+}
+
+.color1 {
+    background-color: lightblue;
+    border-radius: 80px;
+    margin: 10px
+}
+.color2 {
+    background-color: dodgerblue;
+    border-radius: 80px;
+    margin: 10px
+}
+.color3 {
+    background-color: cornflowerblue;
+    border-radius: 80px;
+    margin: 10px
+}

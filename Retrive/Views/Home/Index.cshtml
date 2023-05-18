@@ -1,0 +1,41 @@
+﻿@using System.Data;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>Hariti Study Hub</h1>
+    <h3>Retrieve Data From Stored Procedure in Asp.Net MVC with C#</h3>
+    <table border="1">
+        <tr bgcolor="yellow">
+            <th>Roll Number</th>
+            <th>Student Name</th>
+            <th>Father Name</th>
+            <th>Mother Name</th>
+
+
+
+        </tr>
+        @foreach (DataRow row in Model.Rows)
+        {
+            <tr>
+                <td>@row["rollno"]</td>
+                <td>@row["sname"]</td>
+                <td>@row["fathername"]</td>
+                <td>@row["mothername"]</td>
+
+
+
+            </tr>
+        }
+    </table>
+
+</body>
+</html>
